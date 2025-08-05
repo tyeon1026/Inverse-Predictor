@@ -1,0 +1,6 @@
+flask
+tensorflow==2.18.0
+numpy
+pandas
+matplotlib
+scikit-learn

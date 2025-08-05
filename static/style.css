@@ -1,0 +1,46 @@
+/* 전체 페이지 스타일 */
+body {
+    background: linear-gradient(135deg, #e3f2fd, #f1f8ff);
+    font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
+}
+
+/* 제목 스타일 */
+h1 {
+    color: #1565c0;
+    font-weight: bold;
+}
+
+/* 카드 스타일 */
+.card {
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+}
+
+/* 버튼 스타일 */
+.btn-custom {
+    background: linear-gradient(90deg, #42a5f5, #1e88e5);
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+
+.btn-custom:hover {
+    background: linear-gradient(90deg, #1e88e5, #1565c0);
+    transform: scale(1.02);
+}
+
+/* 테이블 스타일 */
+table {
+    font-size: 0.85rem;
+}
+
+th, td {
+    text-align: center;
+}
